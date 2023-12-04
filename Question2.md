@@ -7,17 +7,17 @@ fictional gene sequence by randomly filling in the gene components by the charac
 corresponding to individual nucleotide bases
 
 promotor= "TTA GCAAATCGGAAATTTTAGCTT"
-5_prime_UTR = "AAAAAAATTTTGGGGGGGGGGGGG"
+five_prime_UTR = "AAAAAAATTTTGGGGGGGGGGGGG"
 start_kodon="ATG"
 exon1="GCATAAAATGCTATAAAATT"
-apoe_gene=AAATTTGCCCCAAATTTG
+apoe_gene="AAATTTGCCCCAAATTTG"
 vegfa_gene= "GSCCSGAATTT"
 esrı_gene= "ATGSSTTTGCATGSAC"
 exon2="AGGCCTTAAGACCCG"
-stop-codon="TGA"
-3_prime_UTR="TTTTTTAAAAAAAAAAAAA"
+stop_codon="TGA"
+three_prime_UTR="TTTTTTAAAAAAAAAAAAA"
 
-my_fav_gene = promoter + 5_prime_UTR + start_kodon + exon1 + apoe_gene + vegfa_gene + esrı_gene + exon2 + stop-codon + 3_prime_UTR
+my_fav_gene = promoter + five_prime_UTR + start_kodon + exon1 + apoe_gene + vegfa_gene + esrı_gene + exon2 + stop-codon + three_prime_UTR
 
 print("My favourite gene sequence is as follows:")
 print(my_fav_gene)
